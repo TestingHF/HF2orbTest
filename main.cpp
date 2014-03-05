@@ -39,7 +39,7 @@ int main(int argc,char *argv[])
   std::cout<<"Initialize MF Parameters"<<std::endl;
   MFParamsType mfParams(engineParams,mp);
 
-  EngineType engine(engineParams, mp, mfParams, lattice);
+  //EngineType engine(engineParams, mp, mfParams, lattice);
   //  engine.run();
 
 }
