@@ -40,7 +40,7 @@ int main(int argc,char *argv[])
   MFParamsType mfParams(engineParams,mp);
 
   EngineType engine(engineParams, mp, mfParams, lattice);
-  engine.run();
+  //  engine.run();
 
 }
 
